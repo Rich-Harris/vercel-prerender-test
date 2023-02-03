@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "/ssr/*",
+			"dest": "/ssr"
+		},
+		{
+			"src": "/isr/*",
+			"dest": "/isr"
+		}
+	],
+	"overrides": {}
+}
