@@ -9,6 +9,11 @@
 					"type": "query",
 					"key": "x",
 					"value": "(?<x>.*)"
+				},
+				{
+					"type": "query",
+					"key": "1",
+					"value": "(?<1>.*)"
 				}
 			]
 		}
