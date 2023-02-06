@@ -3,7 +3,8 @@
 	"routes": [
 		{
 			"src": "/(.*)",
-			"dest": "/fn?__pathname=/$1"
+			"dest": "/fn?__pathname=/$1",
+			"has": [{ "type": "query", "key": "x", "value": "(?<x>.*)" }]
 		}
 	],
 	"overrides": {}
