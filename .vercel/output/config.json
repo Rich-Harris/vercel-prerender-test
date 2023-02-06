@@ -2,12 +2,8 @@
 	"version": 3,
 	"routes": [
 		{
-			"src": "/ssr/*",
-			"dest": "/ssr"
-		},
-		{
-			"src": "/isr/*",
-			"dest": "/isr"
+			"src": "/(.*)",
+			"dest": "/fn?__pathname=$1"
 		}
 	],
 	"overrides": {}
