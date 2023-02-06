@@ -7,13 +7,13 @@
 			"has": [
 				{
 					"type": "query",
-					"key": "x",
-					"value": "(?<x>.*)"
+					"key": "abc",
+					"value": "(?<def>.*)"
 				},
 				{
 					"type": "query",
-					"key": "1",
-					"value": "(?<1>.*)"
+					"key": "ghi",
+					"value": "(?<jkl>.*)"
 				}
 			]
 		}
