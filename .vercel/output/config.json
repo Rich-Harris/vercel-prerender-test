@@ -2,7 +2,7 @@
 	"version": 3,
 	"routes": [
 		{
-			"src": "/*",
+			"src": "/(.*)",
 			"dest": "/fn?__pathname=$1"
 		}
 	],
