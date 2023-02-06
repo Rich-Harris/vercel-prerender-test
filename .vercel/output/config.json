@@ -3,7 +3,7 @@
 	"routes": [
 		{
 			"src": "/(.*)",
-			"dest": "/fn?__pathname=$1"
+			"dest": "/fn?__lol=$1"
 		}
 	],
 	"overrides": {}
