@@ -2,5 +2,5 @@
 	"handler": "index.js",
 	"runtime": "nodejs18.x",
 	"launcherType": "Nodejs",
-	"allowQuery": ["__pathname", "x"]
+	"allowQuery": ["__pathname", "x", "1"]
 }
